@@ -33,5 +33,10 @@ probed with syntax such as:
 showing that columns contents for all entries.
 
 
--------------------------
+------------------------- Python code
+
+- makebarchart.py
+
+- is_md_or_do.py
+
 
