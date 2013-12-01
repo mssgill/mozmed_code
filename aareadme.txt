@@ -1,4 +1,9 @@
--- Nov 21, 2013
+-- start: Nov 21, 2013
+-- cur:   Nov 30, 2013
+
+[Modified version of mssg-data-sci blog notes ]
+
+------------------------------ mySQL code
 
 ---- Calling mySql from cmd line:
 
@@ -35,8 +40,26 @@ showing that columns contents for all entries.
 
 ------------------------- Python code
 
-- makebarchart.py
+---- makebarchart.py  
 
-- is_md_or_do.py
+Sorts states by number of MDs in them and makes a barchart of this.
+
+Run as so: py makebarchart.py [limnumber] 
+
+ Where the optional arg
+ limnumber (defaults to zero) is the lower limit on the number of MDs
+ that must be in a given state for that state to be shown in the
+ barchart.  e.g. for the 1e5 file, 1000 works well.
+
+Other than this, it's quite well commented within the file itself how
+it works, and i also uploaded a barchart from it to a new Dropbox
+folder where i'll keep stuff like that in the future.
+
+----    is_md_or_do.py
+
+is pretty similar, just picks the column that lists the
+professional title, and i found there are plenty of dentists etc. in
+here too, not just MDs or DOs.
+
 
 
