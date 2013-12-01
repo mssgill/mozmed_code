@@ -11,7 +11,7 @@ import numpy
 #########3# Code to make barchart
 
 # Open file
-f1 = open('first1e4.csv','r')
+f1 = open('first1e3.csv','r')
 
 
 
